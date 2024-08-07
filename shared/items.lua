@@ -384,10 +384,10 @@ QBShared.Items = {
     newsbmic                     = { name = 'newsbmic', label = 'Boom Microphone', weight = 100, type = 'item', image = 'newsbmic.png', unique = true, useable = true, shouldClose = true, description = 'A Useable BoomMic' },
 
 --<!>-- BOII DRUGS --<!>--
-        -- Drugsales
+    -- Drugsales
     burnerphone                	 = { name = 'burnerphone',               	label = 'Burner Phone',             weight = 250,       type = 'item',      image = 'burnerphone.png',        	unique = false,     useable = true,     shouldClose = true,    combinable = nil,   description = 'A burner phone, what do you need one of these for?' },
-     --Weed
-     --Tools
+    --Weed
+    --Tools
     drug_shears 			     = { name = 'drug_shears', 		        	label = 'Trimming Shears', 			weight = 200, 		type = 'item', 		image = 'drug_shears.png', 					unique = false,    	useable = false, 	shouldClose = false,	   	combinable = nil,   description = 'A set of high quality trimming shears.'},	
     drug_scales 		 	     = { name = 'drug_scales', 					label = 'Scale', 					weight = 1500, 	    type = 'item', 		image = 'drug_scales.png', 					unique = false, 	useable = false, 	shouldClose = false,   		combinable = nil,   description = 'A set of premium scales for weighing out decimals..'},
     drug_grinder 	 	         = { name = 'drug_grinder', 					label = 'Grinder', 					weight = 150, 	    type = 'item', 		image = 'drug_grinder.png', 					unique = false, 	useable = false, 	shouldClose = false,   		combinable = nil,   description = 'A grinder for grinding herbs.. or other things..'},
@@ -407,7 +407,7 @@ QBShared.Items = {
     weed_gelato_seed_m			 = {name = 'weed_gelato_seed_m', 			label = 'Gelato: Seed (M)', 		weight = 1, 		type = 'item', 		image = 'weed_gelato_seed_m.png', 		    unique = false, 	useable = true, 	shouldClose = true,	   		combinable = nil,   description = 'A male gelato seed!'},
     weed_zkittlez_seed_m 		 = {name = 'weed_zkittlez_seed_m', 			label = 'Zkittlez: Seed (M)', 		weight = 1, 		type = 'item', 		image = 'weed_zkittlez_seed_m.png', 		unique = false, 	useable = true, 	shouldClose = true,	   		combinable = nil,   description = 'A male zkittlez seed!'},
             
-            -- Feminized
+    -- Feminized
     weed_skunk_seed_f 			 = {name = 'weed_skunk_seed_f', 				label = 'Skunk: Seed (F)', 			weight = 1, 		type = 'item', 		image = 'weed_skunk_seed_f.png', 		    unique = false, 	useable = true, 	shouldClose = true,	   		combinable = nil,   description = 'A feminized skunk seed.'},
     weed_og-kush_seed_f 		 = {name = 'weed_og-kush_seed_f', 			label = 'OG-Kush: Seed (F)', 		weight = 1, 		type = 'item', 		image = 'weed_og-kush_seed_f.png', 		    unique = false, 	useable = true, 	shouldClose = true,	   		combinable = nil,   description = 'A feminized og-kush seed.'},
     weed_white-widow_seed_f 	 = {name = 'weed_white-widow_seed_f', 		label = 'White-Widow: Seed (F)', 	weight = 1, 		type = 'item', 		image = 'weed_white-widow_seed_f.png', 		unique = false, 	useable = true, 	shouldClose = true,	   		combinable = nil,   description = 'A feminized white-widow seed.'},
@@ -500,201 +500,7 @@ QBShared.Items = {
     -- Drugs
     ketamine_1oz                 = {name = 'ketamine_1oz',               	label = 'Ounce of Ketamine',             weight = 2800,       type = 'item',      image = 'ketamine_1oz.png',        	unique = false,     useable = true,     shouldClose = true,    combinable = nil,   description = 'A ounce of ketamine!'},
     ketamine                	 = {name = 'ketamine',               	label = 'Bag of Ketamine',             weight = 100,       type = 'item',      image = 'ketamine.png',        	unique = false,     useable = true,     shouldClose = true,    combinable = nil,   description = 'A bag of ketamine!'},
-        
-    -- Crafting
-    craftrecipe                  = {name = "craftrecipe",  label = "Crafting Recipe",  weight = 100, type = "item",  image = "blueprint.png",  unique = true,  useable = false,  shouldClose = false,  description = "Crafting Recipe", },
-    paper                        = {name = "paper",        label = "Roll of Paper",    weight = 100, type = "item",  image = "paperroll.png", unique = false,  useable = false,  shouldClose = false,  description = ""},
-        
-    --Jim-Mechanic Vehicles
-    mechanic_tools               = {name = "mechanic_tools",   label = "Mechanic tools",		weight = 0, type = "item",  image = "mechanic_tools.png",   unique = true,  useable = true, shouldClose = true, description = "Needed for vehicle repairs"},
-    toolbox                      = {name = "toolbox",          label = "Toolbox",				weight = 0, type = "item",  image = "toolbox.png",          unique = true,  useable = true, shouldClose = true, description = "Needed for Performance part removal"},
-    ducttape                     = {name = "ducttape",         label = "Duct Tape",			weight = 0, type = "item",  image = "bodyrepair.png",       unique = true,  useable = true, shouldClose = true, description = "Good for quick fixes"},
-    mechboard                    = {name = "mechboard",        label = "Mechanic Sheet",		weight = 0, type = "item",  image = "mechboard.png",        unique = true,  useable = true, shouldClose = true, description = ""},
-        
-    --Performance
-    turbo                        = {name = "turbo",            label = "Supercharger Turbo",	weight = 0, type = "item",  image = "turbo.png",            unique = true,  useable = true, shouldClose = true, description = "Who doesn't need a 65mm Turbo??"},
-    car_armor                    = {name = "car_armor",		label = "Vehicle Armor",		weight = 0, type = "item",  image = "car_armour.png",           unique = true,  useable = true, shouldClose = true, description = ""},
-        
-    nos                          = {name = "nos",				label = "NOS Bottle",			weight = 0, type = "item",  image = "nos.png",              unique = true,  useable = true, shouldClose = true, description = "A full bottle of NOS"},
-    noscan                       = {name = "noscan",			label = "Empty NOS Bottle",		weight = 0, type = "item",  image = "noscan.png",           unique = false, useable = true, shouldClose = true, description = "An Empty bottle of NOS"},
-    noscolour                    = {name = "noscolour",		label = "NOS Colour Injector",	weight = 0, type = "item",  image = "noscolour.png", 		unique = false, useable = true, shouldClose = true, description = "Make that purge spray"},
-        
-    engine1                      = {name = "engine1",			label = "Tier 1 Engine",		weight = 0, type = "item",  image = "engine1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    engine2                      = {name = "engine2",			label = "Tier 2 Engine",		weight = 0, type = "item",  image = "engine2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    engine3                      = {name = "engine3",			label = "Tier 3 Engine",		weight = 0, type = "item",  image = "engine3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    engine4                      = {name = "engine4",			label = "Tier 4 Engine",		weight = 0, type = "item",  image = "engine4.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    engine5                      = {name = "engine5",			label = "Tier 5 Engine",		weight = 0, type = "item",  image = "engine5.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-        
-    transmission1                = {name = "transmission1",    label = "Tier 1 Transmission",	weight = 0, type = "item",  image = "transmission1.png",    unique = true,  useable = true, shouldClose = true, description = ""},
-    transmission2                = {name = "transmission2",	label = "Tier 2 Transmission",	weight = 0, type = "item",  image = "transmission2.png",    unique = true,  useable = true, shouldClose = true, description = ""},
-    transmission3                = {name = "transmission3",    label = "Tier 3 Transmission",	weight = 0, type = "item",  image = "transmission3.png",    unique = true,  useable = true, shouldClose = true, description = ""},
-    transmission4                = {name = "transmission4",	label = "Tier 4 Transmission",	weight = 0, type = "item",  image = "transmission4.png",    unique = true,  useable = true, shouldClose = true, description = ""},
-        
-    brakes1                      = {name = "brakes1",			label = "Tier 1 Brakes",		weight = 0, type = "item",  image = "brakes1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    brakes2                      = {name = "brakes2",			label = "Tier 2 Brakes",		weight = 0, type = "item",  image = "brakes2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    brakes3                      = {name = "brakes3",			label = "Tier 3 Brakes",		weight = 0, type = "item",  image = "brakes3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    suspension1                  = {name = "suspension1",		label = "Tier 1 Suspension",	weight = 0, type = "item",  image = "suspension1.png",      unique = true,  useable = true, shouldClose = true, description = ""},
-    suspension2                  = {name = "suspension2",		label = "Tier 2 Suspension",	weight = 0, type = "item",  image = "suspension2.png",      unique = true,  useable = true, shouldClose = true, description = ""},
-    suspension3                  = {name = "suspension3",		label = "Tier 3 Suspension",	weight = 0, type = "item",  image = "suspension3.png",      unique = true,  useable = true, shouldClose = true, description = ""},
-    suspension4                  = {name = "suspension4",		label = "Tier 4 Suspension",	weight = 0, type = "item",  image = "suspension4.png",      unique = true,  useable = true, shouldClose = true, description = ""},
-    suspension5                  = {name = "suspension5",		label = "Tier 5 Suspension",	weight = 0, type = "item",  image = "suspension5.png",      unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    bprooftires                  = {name = "bprooftires",		label = "Bulletproof Tires",	weight = 0, type = "item",  image = "bprooftires.png",      unique = true,  useable = true, shouldClose = true, description = ""},
-    drifttires                   = {name = "drifttires",		label = "Drift Tires",			weight = 0, type = "item",  image = "drifttires.png",       unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    oilp1                        = {name = "oilp1",			label = "Tier 1 Oil Pump",		weight = 0, type = "item",  image = "oilp1.png",            unique = true,  useable = true, shouldClose = true, description = ""},
-    oilp2                        = {name = "oilp2",			label = "Tier 2 Oil Pump",		weight = 0, type = "item",  image = "oilp2.png",            unique = true,  useable = true, shouldClose = true, description = ""},
-    oilp3                        = {name = "oilp3",			label = "Tier 3 Oil Pump",		weight = 0, type = "item",  image = "oilp3.png",            unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    drives1                      = {name = "drives1",			label = "Tier 1 Drive Shaft",	weight = 0, type = "item",  image = "drives1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    drives2                      = {name = "drives2",			label = "Tier 2 Drive Shaft",	weight = 0, type = "item",  image = "drives2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    drives3                      = {name = "drives3",			label = "Tier 3 Drive Shaft",	weight = 0, type = "item",  image = "drives3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    cylind1                      = {name = "cylind1",			label = "Tier 1 Cylinder Head",	weight = 0, type = "item",  image = "cylind1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    cylind2                      = {name = "cylind2",			label = "Tier 2 Cylinder Head",	weight = 0, type = "item",  image = "cylind2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    cylind3                      = {name = "cylind3",			label = "Tier 3 Cylinder Head",	weight = 0, type = "item",  image = "cylind3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    cables1                      = {name = "cables1",			label = "Tier 1 Battery Cables",weight = 0, type = "item",  image = "cables1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    cables2                      = {name = "cables2",			label = "Tier 2 Battery Cables",weight = 0, type = "item",  image = "cables2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-    cables3                      = {name = "cables3",			label = "Tier 3 Battery Cables",weight = 0, type = "item",  image = "cables3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    fueltank1                    = {name = "fueltank1",		label = "Tier 1 Fuel Tank",     weight = 0, type = "item",  image = "fueltank1.png",        unique = true,  useable = true, shouldClose = true, description = ""},
-    fueltank2                    = {name = "fueltank2",		label = "Tier 2 Fuel Tank",     weight = 0, type = "item",  image = "fueltank2.png",        unique = true,  useable = true, shouldClose = true, description = ""},
-    fueltank3                    = {name = "fueltank3",		label = "Tier 3 Fuel Tank",     weight = 0, type = "item",  image = "fueltank3.png",        unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    antilag                      = {name = "antilag",		    label = "AntiLag",              weight = 0, type = "item",  image = "antiLag.png",        unique = true,  useable = true, shouldClose = true, description = ""},
-        
-            --Cosmetics
-    underglow_controller         = {name = "underglow_controller",label = "Neon Controller",	weight = 0, type = "item",  image = "underglow_controller.png", unique = false, useable = true, shouldClose = true, description = "RGB LED Vehicle Remote"},
-    headlights                   = {name = "headlights",       label = "Xenon Headlights",		weight = 0, type = "item",  image = "headlights.png",       unique = true, 	useable = true, shouldClose = true, description = "8k HID headlights"}
-    tint_supplies                = {name = "tint_supplies",    label = "Tint Supplies",		weight = 0, type = "item",  image = "tint_supplies.png",    unique = false, useable = true, shouldClose = true, description = "Supplies for window tinting"},
-
-    customplate                  = {name = "customplate",      label = "Customized Plates",	weight = 0, type = "item",  image = "plate.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    hood                         = {name = "hood",             label = "Vehicle Hood",			weight = 0, type = "item",  image = "hood.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    roof                         = {name = "roof",             label = "Vehicle Roof",			weight = 0, type = "item",  image = "roof.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    spoiler                      = {name = "spoiler",          label = "Vehicle Spoiler",		weight = 0, type = "item",  image = "spoiler.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    bumper                       = {name = "bumper",           label = "Vehicle Bumper",		weight = 0, type = "item",  image = "bumper.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    skirts                       = {name = "skirts",           label = "Vehicle Skirts",		weight = 0, type = "item",  image = "skirts.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    exhaust                      = {name = "exhaust",          label = "Vehicle Exhaust",		weight = 0, type = "item",  image = "exhaust.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    seat                         = {name = "seat",             label = "Seat Cosmetics",		weight = 0, type = "item",  image = "seat.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    rollcage                     = {name = "rollcage",         label = "Roll Cage",			weight = 0, type = "item",  image = "rollcage.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
-  
-    rims                         = {name = "rims",             label = "Custom Wheel Rims",	weight = 0, type = "item",  image = "rims.png", 			unique = true,  useable = true, shouldClose = true, description = ""}
-    livery                       = {name = "livery",           label = "Livery Roll",			weight = 0, type = "item",  image = "livery.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-    paintcan                     = {name = "paintcan",         label = "Vehicle Spray Can",	weight = 0, type = "item",  image = "spraycan.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
-    tires                        = {name = "tires",            label = "Drift Smoke Tires",	weight = 0, type = "item",  image = "tires.png", 	  		unique = true,  useable = true, shouldClose = true, description = ""}
-    horn                         = {name = "horn",             label = "Custom Vehicle Horn",	weight = 0, type = "item",  image = "horn.png", 			unique = true,  useable = true, shouldClose = true, description = ""}
-    internals                    = {name = "internals",        label = "Internal Cosmetics",	weight = 0, type = "item",  image = "internals.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
-    externals                    = {name = "externals",        label = "Exterior Cosmetics",	weight = 0, type = "item",  image = "mirror.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
-
-    --Repair Parts
-    newoil                       = {name = "newoil",           label = "Car Oil",				weight = 0, type = "item",  image = "caroil.png",           unique = false, useable = false,shouldClose = false,description = ""},
-    sparkplugs                   = {name = "sparkplugs",       label = "Spark Plugs",			weight = 0, type = "item",  image = "sparkplugs.png",       unique = false, useable = false,shouldClose = false,description = ""},
-    carbattery                   = {name = "carbattery",       label = "Car Battery",			weight = 0, type = "item",  image = "carbattery.png",       unique = false, useable = false,shouldClose = false,description = ""},
-    axleparts                    = {name = "axleparts",        label = "Axle Parts",			weight = 0, type = "item",  image = "axleparts.png",        unique = false, useable = false,shouldClose = false,description = ""},
-    sparetire                    = {name = "sparetire",        label = "Spare Tire",			weight = 0, type = "item",  image = "sparetire.png",        unique = true,  useable = false,shouldClose = false,description = ""},
-
-    -- Recycling
-    recyclablematerial           = {name = "recyclablematerial",   label = "Recycle Box",      weight = 100, type = "item", 		image = "recyclablematerial.png",   unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A box of Recyclable Materials"},
-    bottle                       = {name = "bottle",               label = "Empty Bottle",     weight = 10,  type = "item", 		image = "bottle.png",               unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A glass bottle"},
-    can                          = {name = "can",                  label = "Empty Can",        weight = 10,  type = "item", 		image = "can.png",                  unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "An empty can, good for recycling"},
-
-    --Jim-Lumberjack
-    powersaw 		             = {name = "powersaw",       	label = "Power Saw", 		weight = 1000,  type = "item",  image = "powersaw.png",	unique = true,	useable = false,     shouldClose = false, description = ""}
-    log 	    	             = {name = "log",				label = "Log",	 			weight = 2000,  type = "item",  image = "log.png",			unique = false, 	useable = false,     shouldClose = false, description = ""},
-    bark 			             = {name = "bark",       		label = "Tree Bark", 		weight = 100,   type = "item",  image = "bark.png",			unique = false, 	useable = false,     shouldClose = false, description = ""},
-    debarkedlog		             = {name = "debarkedlog",		label = "Debarked Log", 	weight = 100,   type = "item",  image = "debarkedlog.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
-    wood        	             = {name = "wood", 				label = "Wood Planks", 		weight = 100,   type = "item",  image = "woodplank.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
-  
-    cardhat    	 	             = {name = "cardhat",    		label = "Cardboard Box",	weight = 100,   type = "item",  image = "cardhat.png",		unique = true,	useable = true,     shouldClose = false,        description = ""},
-    fakecash    	             = {name = "fakecash",   		label = "Fake Cash",		weight = 100,   type = "item",  image = "fakecash.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
-    fakecert    	             = {name = "fakecert",   		label = "Fake Certificate",	weight = 100,	type = "item",  image = "fakecert.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
-    fakeweaplicence	             = {name = "fakeweaplicence",   	label = "Fake Weapon Licence",weight = 100, type = "item",  image = "fakeweap.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
-    fakedrivelicence             = {name = "fakedrivelicence",   label = "Fake Drivers Licence",weight = 100,type = "item",  image = "fakedriver.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
-    fakelawyer		             = {name = "fakelawyer",   		label = "Fake Laywer Pass",	weight = 100,	type = "item",  image = "fakelawyer.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
-    charcoal 	                 = {name = "charcoal",			label = "Charcoal",	 		weight = 100,  type = "item",  image = "charcoal.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
-    hammerhandle 	             = {name = "hammerhandle",		label = "Hammer Handle",	weight = 100,  type = "item",  image = "hammerhandle.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
-    axehandle 		             = {name = "axehandle",			label = "Axe Handle",		weight = 100,  type = "item",  image = "axehandle.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
-    batbase 		             = {name = "batbase",			label = "Bat Base",			weight = 100,  type = "item",  image = "batbase.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
-    origami1    	             = {name = "origami1",    		label = "Origami Scorpion",	weight = 100,  type = "item",  image = "origami1.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami2    	             = {name = "origami2",    		label = "Origami Spider",	weight = 100,  type = "item",  image = "origami2.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami3    	             = {name = "origami3",    		label = "Origami Poop",		weight = 100,  type = "item",  image = "origami3.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami4    	             = {name = "origami4",    		label = "Origami Dragon",	weight = 100,  type = "item",  image = "origami4.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami5    	             = {name = "origami5",    		label = "Origami Unicorn",	weight = 100,  type = "item",  image = "origami5.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami6    	             = {name = "origami6",    		label = "Origami Pig",		weight = 100,  type = "item",  image = "origami6.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami7    	             = {name = "origami7",    		label = "Origami Phoenix",	weight = 100,  type = "item",  image = "origami7.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami8    	             = {name = "origami8",    		label = "Origami Plane",	weight = 100,  type = "item",  image = "origami8.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami9    	             = {name = "origami9",    		label = "Origami Whale",	weight = 100,  type = "item",  image = "origami9.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami10    	             = {name = "origami10",    		label = "Origami Dolphin",	weight = 100,  type = "item",  image = "origami10.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami11    	             = {name = "origami11",    		label = "Origami Bunny",	weight = 100,  type = "item",  image = "origami11.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami12    	             = {name = "origami12",    		label = "Origami Lion",		weight = 100,  type = "item",  image = "origami12.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami13    	             = {name = "origami13",    		label = "Origami Turkey",	weight = 100,  type = "item",  image = "origami13.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami14    	             = {name = "origami14",    		label = "Origami Eagle",	weight = 100,  type = "item",  image = "origami14.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami15    	             = {name = "origami15",    		label = "Origami Dinosaur",	weight = 100,  type = "item",  image = "origami15.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami16    	             = {name = "origami16",    		label = "Origami Butterfly",weight = 100,  type = "item",  image = "origami16.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami17    	             = {name = "origami17",    		label = "Origami Monkey",	weight = 100,  type = "item",  image = "origami17.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami18    	             = {name = "origami18",    		label = "Origami Mouse",	weight = 100,  type = "item",  image = "origami18.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami19    	             = {name = "origami19",    		label = "Origami Cockatiel",weight = 100,  type = "item",  image = "origami19.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami20    	             = {name = "origami20",    		label = "Origami Squirrel",	weight = 100,  type = "item",  image = "origami20.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-    origami21    	             = {name = "origami21",    		label = "Origami Wolf",		weight = 100,  type = "item",  image = "origami21.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
-            
-    -- Shops additional items
-    sprunk                       = {name = "sprunk", label = "Sprunk", weight = 100, type = "item", image = "sprunk.png", unique = false, useable = true,     shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
-    sprunklight                  = {name = "sprunklight", label = "Sprunk Light", weight = 100, type = "item", image = "sprunklight.png", unique = false,     useable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
-    ecola                        = {name = "ecola", label = "eCola", weight = 100, type = "item", image = "ecola.png", unique = false, useable = true,     shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
-    ecolalight                   = {name = "ecolalight", label = "eCola Light", weight = 100, type = "item", image = "ecolalight.png", unique = false,     useable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
     
-    -- jim-mining stuff
-    stone 		 	 			 = {name = "stone",           				label = "Stone",	 				weight = 2000, 	    type = "item", 		image = "stone.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Stone woo"}
-    uncut_emerald 				 = {name = "uncut_emerald", 			  	label = "Uncut Emerald", 			weight = 100, 		type = "item", 		image = "uncut_emerald.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Emerald"},
-    uncut_ruby 					 = {name = "uncut_ruby", 			  	  	label = "Uncut Ruby", 				weight = 100, 		type = "item", 		image = "uncut_ruby.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Ruby"},
-    uncut_diamond 				 = {name = "uncut_diamond", 			  	label = "Uncut Diamond", 			weight = 100, 		type = "item", 		image = "uncut_diamond.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Diamond"},
-    uncut_sapphire 				 = {name = "uncut_sapphire", 			  	label = "Uncut Sapphire", 			weight = 100, 		type = "item", 		image = "uncut_sapphire.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Sapphire"},
-    emerald 					 = {name = "emerald", 			  	  		label = "Emerald", 					weight = 100, 		type = "item", 		image = "emerald.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A Emerald that shimmers"},
-    ruby 						 = {name = "ruby", 			  	  			label = "Ruby", 					weight = 100, 		type = "item", 		image = "ruby.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A Ruby that shimmers"},
-    sapphire 					 = {name = "sapphire", 			  	  		label = "Sapphire",					weight = 100, 		type = "item", 		image = "sapphire.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A Sapphire that shimmers"},
-    gold_ring 					 = {name = "gold_ring", 			  	  	label = "Gold Ring", 				weight = 200, 		type = "item", 		image = "gold_ring.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    ruby_ring 					 = {name = "ruby_ring", 			  	  	label = "Ruby Ring", 				weight = 200, 		type = "item", 		image = "ruby_ring.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    sapphire_ring 				 = {name = "sapphire_ring", 			  	label = "Sapphire Ring", 			weight = 200, 		type = "item", 		image = "sapphire_ring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    emerald_ring 				 = {name = "emerald_ring", 			  	  	label = "Emerald Ring", 			weight = 200, 		type = "item", 		image = "emerald_ring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    silver_ring 				 = {name = "silver_ring", 			  		label = "Silver Ring", 				weight = 200, 		type = "item", 		image = "silver_ring.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    diamond_ring_silver 		 = {name = "diamond_ring_silver", 		  	label = "Diamond Ring Silver", 		weight = 200, 		type = "item", 		image = "diamond_ring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    ruby_ring_silver 			 = {name = "ruby_ring_silver", 			  	label = "Ruby Ring Silver", 		weight = 200, 		type = "item", 		image = "ruby_ring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    sapphire_ring_silver 		 = {name = "sapphire_ring_silver", 		 	label = "Sapphire Ring Silver", 	weight = 200, 		type = "item", 		image = "sapphire_ring_silver.png", unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    emerald_ring_silver 		 = {name = "emerald_ring_silver", 		  	label = "Emerald Ring Silver", 		weight = 200, 		type = "item", 		image = "emerald_ring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    diamond_necklace 			 = {name = "diamond_necklace", 			  	label = "Diamond Necklace", 		weight = 200, 		type = "item", 		image = "diamond_necklace.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    ruby_necklace 				 = {name = "ruby_necklace", 			  	label = "Ruby Necklace", 			weight = 200, 		type = "item", 		image = "ruby_necklace.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    sapphire_necklace 			 = {name = "sapphire_necklace", 			label = "Sapphire Necklace", 		weight = 200, 		type = "item", 		image = "sapphire_necklace.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    emerald_necklace 			 = {name = "emerald_necklace", 			  	label = "Emerald Necklace", 		weight = 200, 		type = "item", 		image = "emerald_necklace.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    silverchain 				 = {name = "silverchain", 			  	 	label = "Silver Chain", 			weight = 200, 		type = "item", 		image = "silverchain.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    diamond_necklace_silver 	 = {name = "diamond_necklace_silver", 		label = "Diamond Necklace Silver", 	weight = 200, 		type = "item", 		image = "diamond_necklace_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    ruby_necklace_silver 		 = {name = "ruby_necklace_silver", 			label = "Ruby Necklace Silver", 	weight = 200, 		type = "item", 		image = "ruby_necklace_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    sapphire_necklace_silver 	 = {name = "sapphire_necklace_silver", 		label = "Sapphire Necklace Silver", weight = 200, 		type = "item", 		image = "sapphire_necklace_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    emerald_necklace_silver 	 = {name = "emerald_necklace_silver", 		label = "Emerald Necklace Silver", 	weight = 200, 		type = "item", 		image = "emerald_necklace_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    goldearring 				 = {name = "goldearring", 				  	label = "Golden Earrings", 			weight = 200, 		type = "item", 		image = "gold_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    diamond_earring 			 = {name = "diamond_earring", 			  	label = "Diamond Earrings", 		weight = 200, 		type = "item", 		image = "diamond_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    ruby_earring 				 = {name = "ruby_earring", 			  		label = "Ruby Earrings", 			weight = 200, 		type = "item", 		image = "ruby_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    sapphire_earring 			 = {name = "sapphire_earring", 				label = "Sapphire Earrings", 		weight = 200, 		type = "item", 		image = "sapphire_earring.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    emerald_earring 			 = {name = "emerald_earring", 			  	label = "Emerald Earrings", 		weight = 200, 		type = "item", 		image = "emerald_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    silverearring 				 = {name = "silverearring", 				label = "Silver Earrings", 			weight = 200, 		type = "item", 		image = "silver_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    diamond_earring_silver 		 = {name = "diamond_earring_silver", 		label = "Diamond Earrings Silver", 	weight = 200, 		type = "item", 		image = "diamond_earring_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    ruby_earring_silver 		 = {name = "ruby_earring_silver", 			label = "Ruby Earrings Silver", 	weight = 200, 		type = "item", 		image = "ruby_earring_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    sapphire_earring_silver 	 = {name = "sapphire_earring_silver", 		label = "Sapphire Earrings Silver", weight = 200, 		type = "item", 		image = "sapphire_earring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    emerald_earring_silver 		 = {name = "emerald_earring_silver", 		label = "Emerald Earrings Silver", 	weight = 200, 		type = "item", 		image = "emerald_earring_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    carbon 					 	 = {name = "carbon", 			  	  		label = "Carbon", 					weight = 1000, 		type = "item", 		image = "carbon.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Carbon, a base ore."},
-    ironore 					 = {name = "ironore", 			  	  		label = "Iron Ore", 				weight = 1000, 		type = "item", 		image = "ironore.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Iron, a base ore."},
-    copperore 					 = {name = "copperore", 			  	  	label = "Copper Ore", 				weight = 1000, 		type = "item", 		image = "copperore.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Copper, a base ore."},
-    goldore 					 = {name = "goldore", 			  	  		label = "Gold Ore", 				weight = 1000, 		type = "item", 		image = "goldore.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Gold Ore"},
-    silverore 					 = {name = "silverore", 			  	  	label = "Silver Ore", 				weight = 1000, 		type = "item", 		image = "silverore.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Silver Ore"},
-    goldingot 					 = {name = "goldingot", 			  	  	label = "Gold Ingot", 				weight = 1000, 		type = "item", 		image = "goldingot.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    silveringot 				 = {name = "silveringot", 			  	  	label = "Silver Ingot", 			weight = 1000, 		type = "item", 		image = "silveringot.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
-    pickaxe 					 = {name = "pickaxe", 			  	  		label = "Pickaxe", 					weight = 1000, 		type = "item", 		image = "pickaxe.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
-    miningdrill 				 = {name = "miningdrill", 			  	  	label = "Mining Drill", 			weight = 1000, 		type = "item", 		image = "miningdrill.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
-    mininglaser 				 = {name = "mininglaser", 			  	  	label = "Mining Laser", 			weight = 900, 		type = "item", 		image = "mininglaser.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
-    drillbit 					 = {name = "drillbit", 			  	  		label = "Drill Bit", 				weight = 10, 		type = "item", 		image = "drillbit.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
-    goldpan 					 = {name = "goldpan", 			  	  		label = "Gold Panning Tray", 		weight = 10, 		type = "item", 		image = "goldpan.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
-            
     --<!>-- BOII FARMING --<!>--
     -- Tools
     milking_pail                 = {name = 'milking_pail',              	label = 'Milking Pail',             weight = 250,       type = 'item',      image = 'milking_pail.png',        		unique = false,     useable = false,    shouldClose = false,    combinable = nil,   description = 'A milking pail for collecting milk!'},
@@ -842,6 +648,200 @@ QBShared.Items = {
     gummy_gelato_cbd 			 = {name = 'gummy_gelato_cbd', 			    label = 'CBD Gelato Gummy', 		weight = 4, 		type = 'item', 		image = 'gummy_gelato_cbd.png', 			unique = false, 	useable = true, 	shouldClose = true,	   		combinable = nil,   description = 'A edible cbd gelato gummy bear!'},
     gummy_zkittlez_cbd 			 = {name = 'gummy_zkittlez_cbd', 			label = 'CBD Zkittlez Gummy', 		weight = 4, 		type = 'item', 		image = 'gummy_zkittlez_cbd.png', 			unique = false, 	useable = true, 	shouldClose = true,	   		combinable = nil,   description = 'A edible cbd zkittlez gummy bear!'},
 
+    -- Crafting
+    craftrecipe                  = {name = "craftrecipe",  label = "Crafting Recipe",  weight = 100, type = "item",  image = "blueprint.png",  unique = true,  useable = false,  shouldClose = false,  description = "Crafting Recipe", },
+    paper                        = {name = "paper",        label = "Roll of Paper",    weight = 100, type = "item",  image = "paperroll.png", unique = false,  useable = false,  shouldClose = false,  description = ""},
+        
+    --Jim-Mechanic Vehicles
+    mechanic_tools               = {name = "mechanic_tools",   label = "Mechanic tools",		weight = 0, type = "item",  image = "mechanic_tools.png",   unique = true,  useable = true, shouldClose = true, description = "Needed for vehicle repairs"},
+    toolbox                      = {name = "toolbox",          label = "Toolbox",				weight = 0, type = "item",  image = "toolbox.png",          unique = true,  useable = true, shouldClose = true, description = "Needed for Performance part removal"},
+    ducttape                     = {name = "ducttape",         label = "Duct Tape",			weight = 0, type = "item",  image = "bodyrepair.png",       unique = true,  useable = true, shouldClose = true, description = "Good for quick fixes"},
+    mechboard                    = {name = "mechboard",        label = "Mechanic Sheet",		weight = 0, type = "item",  image = "mechboard.png",        unique = true,  useable = true, shouldClose = true, description = ""},
+        
+    --Performance
+    turbo                        = {name = "turbo",            label = "Supercharger Turbo",	weight = 0, type = "item",  image = "turbo.png",            unique = true,  useable = true, shouldClose = true, description = "Who doesn't need a 65mm Turbo??"},
+    car_armor                    = {name = "car_armor",		label = "Vehicle Armor",		weight = 0, type = "item",  image = "car_armour.png",           unique = true,  useable = true, shouldClose = true, description = ""},
+        
+    nos                          = {name = "nos",				label = "NOS Bottle",			weight = 0, type = "item",  image = "nos.png",              unique = true,  useable = true, shouldClose = true, description = "A full bottle of NOS"},
+    noscan                       = {name = "noscan",			label = "Empty NOS Bottle",		weight = 0, type = "item",  image = "noscan.png",           unique = false, useable = true, shouldClose = true, description = "An Empty bottle of NOS"},
+    noscolour                    = {name = "noscolour",		label = "NOS Colour Injector",	weight = 0, type = "item",  image = "noscolour.png", 		unique = false, useable = true, shouldClose = true, description = "Make that purge spray"},
+        
+    engine1                      = {name = "engine1",			label = "Tier 1 Engine",		weight = 0, type = "item",  image = "engine1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    engine2                      = {name = "engine2",			label = "Tier 2 Engine",		weight = 0, type = "item",  image = "engine2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    engine3                      = {name = "engine3",			label = "Tier 3 Engine",		weight = 0, type = "item",  image = "engine3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    engine4                      = {name = "engine4",			label = "Tier 4 Engine",		weight = 0, type = "item",  image = "engine4.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    engine5                      = {name = "engine5",			label = "Tier 5 Engine",		weight = 0, type = "item",  image = "engine5.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+        
+    transmission1                = {name = "transmission1",    label = "Tier 1 Transmission",	weight = 0, type = "item",  image = "transmission1.png",    unique = true,  useable = true, shouldClose = true, description = ""},
+    transmission2                = {name = "transmission2",	label = "Tier 2 Transmission",	weight = 0, type = "item",  image = "transmission2.png",    unique = true,  useable = true, shouldClose = true, description = ""},
+    transmission3                = {name = "transmission3",    label = "Tier 3 Transmission",	weight = 0, type = "item",  image = "transmission3.png",    unique = true,  useable = true, shouldClose = true, description = ""},
+    transmission4                = {name = "transmission4",	label = "Tier 4 Transmission",	weight = 0, type = "item",  image = "transmission4.png",    unique = true,  useable = true, shouldClose = true, description = ""},
+        
+    brakes1                      = {name = "brakes1",			label = "Tier 1 Brakes",		weight = 0, type = "item",  image = "brakes1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    brakes2                      = {name = "brakes2",			label = "Tier 2 Brakes",		weight = 0, type = "item",  image = "brakes2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    brakes3                      = {name = "brakes3",			label = "Tier 3 Brakes",		weight = 0, type = "item",  image = "brakes3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    suspension1                  = {name = "suspension1",		label = "Tier 1 Suspension",	weight = 0, type = "item",  image = "suspension1.png",      unique = true,  useable = true, shouldClose = true, description = ""},
+    suspension2                  = {name = "suspension2",		label = "Tier 2 Suspension",	weight = 0, type = "item",  image = "suspension2.png",      unique = true,  useable = true, shouldClose = true, description = ""},
+    suspension3                  = {name = "suspension3",		label = "Tier 3 Suspension",	weight = 0, type = "item",  image = "suspension3.png",      unique = true,  useable = true, shouldClose = true, description = ""},
+    suspension4                  = {name = "suspension4",		label = "Tier 4 Suspension",	weight = 0, type = "item",  image = "suspension4.png",      unique = true,  useable = true, shouldClose = true, description = ""},
+    suspension5                  = {name = "suspension5",		label = "Tier 5 Suspension",	weight = 0, type = "item",  image = "suspension5.png",      unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    bprooftires                  = {name = "bprooftires",		label = "Bulletproof Tires",	weight = 0, type = "item",  image = "bprooftires.png",      unique = true,  useable = true, shouldClose = true, description = ""},
+    drifttires                   = {name = "drifttires",		label = "Drift Tires",			weight = 0, type = "item",  image = "drifttires.png",       unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    oilp1                        = {name = "oilp1",			label = "Tier 1 Oil Pump",		weight = 0, type = "item",  image = "oilp1.png",            unique = true,  useable = true, shouldClose = true, description = ""},
+    oilp2                        = {name = "oilp2",			label = "Tier 2 Oil Pump",		weight = 0, type = "item",  image = "oilp2.png",            unique = true,  useable = true, shouldClose = true, description = ""},
+    oilp3                        = {name = "oilp3",			label = "Tier 3 Oil Pump",		weight = 0, type = "item",  image = "oilp3.png",            unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    drives1                      = {name = "drives1",			label = "Tier 1 Drive Shaft",	weight = 0, type = "item",  image = "drives1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    drives2                      = {name = "drives2",			label = "Tier 2 Drive Shaft",	weight = 0, type = "item",  image = "drives2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    drives3                      = {name = "drives3",			label = "Tier 3 Drive Shaft",	weight = 0, type = "item",  image = "drives3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    cylind1                      = {name = "cylind1",			label = "Tier 1 Cylinder Head",	weight = 0, type = "item",  image = "cylind1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    cylind2                      = {name = "cylind2",			label = "Tier 2 Cylinder Head",	weight = 0, type = "item",  image = "cylind2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    cylind3                      = {name = "cylind3",			label = "Tier 3 Cylinder Head",	weight = 0, type = "item",  image = "cylind3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    cables1                      = {name = "cables1",			label = "Tier 1 Battery Cables",weight = 0, type = "item",  image = "cables1.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    cables2                      = {name = "cables2",			label = "Tier 2 Battery Cables",weight = 0, type = "item",  image = "cables2.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+    cables3                      = {name = "cables3",			label = "Tier 3 Battery Cables",weight = 0, type = "item",  image = "cables3.png",          unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    fueltank1                    = {name = "fueltank1",		label = "Tier 1 Fuel Tank",     weight = 0, type = "item",  image = "fueltank1.png",        unique = true,  useable = true, shouldClose = true, description = ""},
+    fueltank2                    = {name = "fueltank2",		label = "Tier 2 Fuel Tank",     weight = 0, type = "item",  image = "fueltank2.png",        unique = true,  useable = true, shouldClose = true, description = ""},
+    fueltank3                    = {name = "fueltank3",		label = "Tier 3 Fuel Tank",     weight = 0, type = "item",  image = "fueltank3.png",        unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    antilag                      = {name = "antilag",		    label = "AntiLag",              weight = 0, type = "item",  image = "antiLag.png",        unique = true,  useable = true, shouldClose = true, description = ""},
+        
+    --Cosmetics
+    underglow_controller         = {name = "underglow_controller",label = "Neon Controller",	weight = 0, type = "item",  image = "underglow_controller.png", unique = false, useable = true, shouldClose = true, description = "RGB LED Vehicle Remote"},
+    headlights                   = {name = "headlights",       label = "Xenon Headlights",		weight = 0, type = "item",  image = "headlights.png",       unique = true, 	useable = true, shouldClose = true, description = "8k HID headlights"}
+    tint_supplies                = {name = "tint_supplies",    label = "Tint Supplies",		weight = 0, type = "item",  image = "tint_supplies.png",    unique = false, useable = true, shouldClose = true, description = "Supplies for window tinting"},
+
+    customplate                  = {name = "customplate",      label = "Customized Plates",	weight = 0, type = "item",  image = "plate.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    hood                         = {name = "hood",             label = "Vehicle Hood",			weight = 0, type = "item",  image = "hood.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    roof                         = {name = "roof",             label = "Vehicle Roof",			weight = 0, type = "item",  image = "roof.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    spoiler                      = {name = "spoiler",          label = "Vehicle Spoiler",		weight = 0, type = "item",  image = "spoiler.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    bumper                       = {name = "bumper",           label = "Vehicle Bumper",		weight = 0, type = "item",  image = "bumper.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    skirts                       = {name = "skirts",           label = "Vehicle Skirts",		weight = 0, type = "item",  image = "skirts.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    exhaust                      = {name = "exhaust",          label = "Vehicle Exhaust",		weight = 0, type = "item",  image = "exhaust.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    seat                         = {name = "seat",             label = "Seat Cosmetics",		weight = 0, type = "item",  image = "seat.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    rollcage                     = {name = "rollcage",         label = "Roll Cage",			weight = 0, type = "item",  image = "rollcage.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
+  
+    rims                         = {name = "rims",             label = "Custom Wheel Rims",	weight = 0, type = "item",  image = "rims.png", 			unique = true,  useable = true, shouldClose = true, description = ""}
+    livery                       = {name = "livery",           label = "Livery Roll",			weight = 0, type = "item",  image = "livery.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+    paintcan                     = {name = "paintcan",         label = "Vehicle Spray Can",	weight = 0, type = "item",  image = "spraycan.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
+    tires                        = {name = "tires",            label = "Drift Smoke Tires",	weight = 0, type = "item",  image = "tires.png", 	  		unique = true,  useable = true, shouldClose = true, description = ""}
+    horn                         = {name = "horn",             label = "Custom Vehicle Horn",	weight = 0, type = "item",  image = "horn.png", 			unique = true,  useable = true, shouldClose = true, description = ""}
+    internals                    = {name = "internals",        label = "Internal Cosmetics",	weight = 0, type = "item",  image = "internals.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
+    externals                    = {name = "externals",        label = "Exterior Cosmetics",	weight = 0, type = "item",  image = "mirror.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
+
+    --Repair Parts
+    newoil                       = {name = "newoil",           label = "Car Oil",				weight = 0, type = "item",  image = "caroil.png",           unique = false, useable = false,shouldClose = false,description = ""},
+    sparkplugs                   = {name = "sparkplugs",       label = "Spark Plugs",			weight = 0, type = "item",  image = "sparkplugs.png",       unique = false, useable = false,shouldClose = false,description = ""},
+    carbattery                   = {name = "carbattery",       label = "Car Battery",			weight = 0, type = "item",  image = "carbattery.png",       unique = false, useable = false,shouldClose = false,description = ""},
+    axleparts                    = {name = "axleparts",        label = "Axle Parts",			weight = 0, type = "item",  image = "axleparts.png",        unique = false, useable = false,shouldClose = false,description = ""},
+    sparetire                    = {name = "sparetire",        label = "Spare Tire",			weight = 0, type = "item",  image = "sparetire.png",        unique = true,  useable = false,shouldClose = false,description = ""},
+
+    -- Recycling
+    recyclablematerial           = {name = "recyclablematerial",   label = "Recycle Box",      weight = 100, type = "item", 		image = "recyclablematerial.png",   unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A box of Recyclable Materials"},
+    bottle                       = {name = "bottle",               label = "Empty Bottle",     weight = 10,  type = "item", 		image = "bottle.png",               unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A glass bottle"},
+    can                          = {name = "can",                  label = "Empty Can",        weight = 10,  type = "item", 		image = "can.png",                  unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "An empty can, good for recycling"},
+
+    --Jim-Lumberjack
+    powersaw 		             = {name = "powersaw",       	label = "Power Saw", 		weight = 1000,  type = "item",  image = "powersaw.png",	unique = true,	useable = false,     shouldClose = false, description = ""}
+    log 	    	             = {name = "log",				label = "Log",	 			weight = 2000,  type = "item",  image = "log.png",			unique = false, 	useable = false,     shouldClose = false, description = ""},
+    bark 			             = {name = "bark",       		label = "Tree Bark", 		weight = 100,   type = "item",  image = "bark.png",			unique = false, 	useable = false,     shouldClose = false, description = ""},
+    debarkedlog		             = {name = "debarkedlog",		label = "Debarked Log", 	weight = 100,   type = "item",  image = "debarkedlog.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
+    wood        	             = {name = "wood", 				label = "Wood Planks", 		weight = 100,   type = "item",  image = "woodplank.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
+  
+    cardhat    	 	             = {name = "cardhat",    		label = "Cardboard Box",	weight = 100,   type = "item",  image = "cardhat.png",		unique = true,	useable = true,     shouldClose = false,        description = ""},
+    fakecash    	             = {name = "fakecash",   		label = "Fake Cash",		weight = 100,   type = "item",  image = "fakecash.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
+    fakecert    	             = {name = "fakecert",   		label = "Fake Certificate",	weight = 100,	type = "item",  image = "fakecert.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
+    fakeweaplicence	             = {name = "fakeweaplicence",   	label = "Fake Weapon Licence",weight = 100, type = "item",  image = "fakeweap.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
+    fakedrivelicence             = {name = "fakedrivelicence",   label = "Fake Drivers Licence",weight = 100,type = "item",  image = "fakedriver.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
+    fakelawyer		             = {name = "fakelawyer",   		label = "Fake Laywer Pass",	weight = 100,	type = "item",  image = "fakelawyer.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
+    charcoal 	                 = {name = "charcoal",			label = "Charcoal",	 		weight = 100,  type = "item",  image = "charcoal.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
+    hammerhandle 	             = {name = "hammerhandle",		label = "Hammer Handle",	weight = 100,  type = "item",  image = "hammerhandle.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
+    axehandle 		             = {name = "axehandle",			label = "Axe Handle",		weight = 100,  type = "item",  image = "axehandle.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
+    batbase 		             = {name = "batbase",			label = "Bat Base",			weight = 100,  type = "item",  image = "batbase.png",		unique = false, 	useable = false,     shouldClose = false, description = ""},
+    origami1    	             = {name = "origami1",    		label = "Origami Scorpion",	weight = 100,  type = "item",  image = "origami1.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami2    	             = {name = "origami2",    		label = "Origami Spider",	weight = 100,  type = "item",  image = "origami2.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami3    	             = {name = "origami3",    		label = "Origami Poop",		weight = 100,  type = "item",  image = "origami3.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami4    	             = {name = "origami4",    		label = "Origami Dragon",	weight = 100,  type = "item",  image = "origami4.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami5    	             = {name = "origami5",    		label = "Origami Unicorn",	weight = 100,  type = "item",  image = "origami5.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami6    	             = {name = "origami6",    		label = "Origami Pig",		weight = 100,  type = "item",  image = "origami6.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami7    	             = {name = "origami7",    		label = "Origami Phoenix",	weight = 100,  type = "item",  image = "origami7.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami8    	             = {name = "origami8",    		label = "Origami Plane",	weight = 100,  type = "item",  image = "origami8.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami9    	             = {name = "origami9",    		label = "Origami Whale",	weight = 100,  type = "item",  image = "origami9.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami10    	             = {name = "origami10",    		label = "Origami Dolphin",	weight = 100,  type = "item",  image = "origami10.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami11    	             = {name = "origami11",    		label = "Origami Bunny",	weight = 100,  type = "item",  image = "origami11.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami12    	             = {name = "origami12",    		label = "Origami Lion",		weight = 100,  type = "item",  image = "origami12.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami13    	             = {name = "origami13",    		label = "Origami Turkey",	weight = 100,  type = "item",  image = "origami13.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami14    	             = {name = "origami14",    		label = "Origami Eagle",	weight = 100,  type = "item",  image = "origami14.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami15    	             = {name = "origami15",    		label = "Origami Dinosaur",	weight = 100,  type = "item",  image = "origami15.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami16    	             = {name = "origami16",    		label = "Origami Butterfly",weight = 100,  type = "item",  image = "origami16.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami17    	             = {name = "origami17",    		label = "Origami Monkey",	weight = 100,  type = "item",  image = "origami17.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami18    	             = {name = "origami18",    		label = "Origami Mouse",	weight = 100,  type = "item",  image = "origami18.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami19    	             = {name = "origami19",    		label = "Origami Cockatiel",weight = 100,  type = "item",  image = "origami19.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami20    	             = {name = "origami20",    		label = "Origami Squirrel",	weight = 100,  type = "item",  image = "origami20.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+    origami21    	             = {name = "origami21",    		label = "Origami Wolf",		weight = 100,  type = "item",  image = "origami21.png",		unique = true, 	useable = true,     shouldClose = true,       description = ""},
+            
+    -- Shops additional items
+    sprunk                       = {name = "sprunk", label = "Sprunk", weight = 100, type = "item", image = "sprunk.png", unique = false, useable = true,     shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
+    sprunklight                  = {name = "sprunklight", label = "Sprunk Light", weight = 100, type = "item", image = "sprunklight.png", unique = false,     useable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
+    ecola                        = {name = "ecola", label = "eCola", weight = 100, type = "item", image = "ecola.png", unique = false, useable = true,     shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
+    ecolalight                   = {name = "ecolalight", label = "eCola Light", weight = 100, type = "item", image = "ecolalight.png", unique = false,     useable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
+    
+    -- jim-mining stuff
+    stone 		 	 			 = {name = "stone",           				label = "Stone",	 				weight = 2000, 	    type = "item", 		image = "stone.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Stone woo"}
+    uncut_emerald 				 = {name = "uncut_emerald", 			  	label = "Uncut Emerald", 			weight = 100, 		type = "item", 		image = "uncut_emerald.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Emerald"},
+    uncut_ruby 					 = {name = "uncut_ruby", 			  	  	label = "Uncut Ruby", 				weight = 100, 		type = "item", 		image = "uncut_ruby.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Ruby"},
+    uncut_diamond 				 = {name = "uncut_diamond", 			  	label = "Uncut Diamond", 			weight = 100, 		type = "item", 		image = "uncut_diamond.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Diamond"},
+    uncut_sapphire 				 = {name = "uncut_sapphire", 			  	label = "Uncut Sapphire", 			weight = 100, 		type = "item", 		image = "uncut_sapphire.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Sapphire"},
+    emerald 					 = {name = "emerald", 			  	  		label = "Emerald", 					weight = 100, 		type = "item", 		image = "emerald.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A Emerald that shimmers"},
+    ruby 						 = {name = "ruby", 			  	  			label = "Ruby", 					weight = 100, 		type = "item", 		image = "ruby.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A Ruby that shimmers"},
+    sapphire 					 = {name = "sapphire", 			  	  		label = "Sapphire",					weight = 100, 		type = "item", 		image = "sapphire.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A Sapphire that shimmers"},
+    gold_ring 					 = {name = "gold_ring", 			  	  	label = "Gold Ring", 				weight = 200, 		type = "item", 		image = "gold_ring.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    ruby_ring 					 = {name = "ruby_ring", 			  	  	label = "Ruby Ring", 				weight = 200, 		type = "item", 		image = "ruby_ring.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    sapphire_ring 				 = {name = "sapphire_ring", 			  	label = "Sapphire Ring", 			weight = 200, 		type = "item", 		image = "sapphire_ring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    emerald_ring 				 = {name = "emerald_ring", 			  	  	label = "Emerald Ring", 			weight = 200, 		type = "item", 		image = "emerald_ring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    silver_ring 				 = {name = "silver_ring", 			  		label = "Silver Ring", 				weight = 200, 		type = "item", 		image = "silver_ring.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    diamond_ring_silver 		 = {name = "diamond_ring_silver", 		  	label = "Diamond Ring Silver", 		weight = 200, 		type = "item", 		image = "diamond_ring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    ruby_ring_silver 			 = {name = "ruby_ring_silver", 			  	label = "Ruby Ring Silver", 		weight = 200, 		type = "item", 		image = "ruby_ring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    sapphire_ring_silver 		 = {name = "sapphire_ring_silver", 		 	label = "Sapphire Ring Silver", 	weight = 200, 		type = "item", 		image = "sapphire_ring_silver.png", unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    emerald_ring_silver 		 = {name = "emerald_ring_silver", 		  	label = "Emerald Ring Silver", 		weight = 200, 		type = "item", 		image = "emerald_ring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    diamond_necklace 			 = {name = "diamond_necklace", 			  	label = "Diamond Necklace", 		weight = 200, 		type = "item", 		image = "diamond_necklace.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    ruby_necklace 				 = {name = "ruby_necklace", 			  	label = "Ruby Necklace", 			weight = 200, 		type = "item", 		image = "ruby_necklace.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    sapphire_necklace 			 = {name = "sapphire_necklace", 			label = "Sapphire Necklace", 		weight = 200, 		type = "item", 		image = "sapphire_necklace.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    emerald_necklace 			 = {name = "emerald_necklace", 			  	label = "Emerald Necklace", 		weight = 200, 		type = "item", 		image = "emerald_necklace.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    silverchain 				 = {name = "silverchain", 			  	 	label = "Silver Chain", 			weight = 200, 		type = "item", 		image = "silverchain.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    diamond_necklace_silver 	 = {name = "diamond_necklace_silver", 		label = "Diamond Necklace Silver", 	weight = 200, 		type = "item", 		image = "diamond_necklace_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    ruby_necklace_silver 		 = {name = "ruby_necklace_silver", 			label = "Ruby Necklace Silver", 	weight = 200, 		type = "item", 		image = "ruby_necklace_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    sapphire_necklace_silver 	 = {name = "sapphire_necklace_silver", 		label = "Sapphire Necklace Silver", weight = 200, 		type = "item", 		image = "sapphire_necklace_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    emerald_necklace_silver 	 = {name = "emerald_necklace_silver", 		label = "Emerald Necklace Silver", 	weight = 200, 		type = "item", 		image = "emerald_necklace_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    goldearring 				 = {name = "goldearring", 				  	label = "Golden Earrings", 			weight = 200, 		type = "item", 		image = "gold_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    diamond_earring 			 = {name = "diamond_earring", 			  	label = "Diamond Earrings", 		weight = 200, 		type = "item", 		image = "diamond_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    ruby_earring 				 = {name = "ruby_earring", 			  		label = "Ruby Earrings", 			weight = 200, 		type = "item", 		image = "ruby_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    sapphire_earring 			 = {name = "sapphire_earring", 				label = "Sapphire Earrings", 		weight = 200, 		type = "item", 		image = "sapphire_earring.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    emerald_earring 			 = {name = "emerald_earring", 			  	label = "Emerald Earrings", 		weight = 200, 		type = "item", 		image = "emerald_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    silverearring 				 = {name = "silverearring", 				label = "Silver Earrings", 			weight = 200, 		type = "item", 		image = "silver_earring.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    diamond_earring_silver 		 = {name = "diamond_earring_silver", 		label = "Diamond Earrings Silver", 	weight = 200, 		type = "item", 		image = "diamond_earring_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    ruby_earring_silver 		 = {name = "ruby_earring_silver", 			label = "Ruby Earrings Silver", 	weight = 200, 		type = "item", 		image = "ruby_earring_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    sapphire_earring_silver 	 = {name = "sapphire_earring_silver", 		label = "Sapphire Earrings Silver", weight = 200, 		type = "item", 		image = "sapphire_earring_silver.png", 	unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    emerald_earring_silver 		 = {name = "emerald_earring_silver", 		label = "Emerald Earrings Silver", 	weight = 200, 		type = "item", 		image = "emerald_earring_silver.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    carbon 					 	 = {name = "carbon", 			  	  		label = "Carbon", 					weight = 1000, 		type = "item", 		image = "carbon.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Carbon, a base ore."},
+    ironore 					 = {name = "ironore", 			  	  		label = "Iron Ore", 				weight = 1000, 		type = "item", 		image = "ironore.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Iron, a base ore."},
+    copperore 					 = {name = "copperore", 			  	  	label = "Copper Ore", 				weight = 1000, 		type = "item", 		image = "copperore.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Copper, a base ore."},
+    goldore 					 = {name = "goldore", 			  	  		label = "Gold Ore", 				weight = 1000, 		type = "item", 		image = "goldore.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Gold Ore"},
+    silverore 					 = {name = "silverore", 			  	  	label = "Silver Ore", 				weight = 1000, 		type = "item", 		image = "silverore.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Silver Ore"},
+    goldingot 					 = {name = "goldingot", 			  	  	label = "Gold Ingot", 				weight = 1000, 		type = "item", 		image = "goldingot.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    silveringot 				 = {name = "silveringot", 			  	  	label = "Silver Ingot", 			weight = 1000, 		type = "item", 		image = "silveringot.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = ""},
+    pickaxe 					 = {name = "pickaxe", 			  	  		label = "Pickaxe", 					weight = 1000, 		type = "item", 		image = "pickaxe.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
+    miningdrill 				 = {name = "miningdrill", 			  	  	label = "Mining Drill", 			weight = 1000, 		type = "item", 		image = "miningdrill.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
+    mininglaser 				 = {name = "mininglaser", 			  	  	label = "Mining Laser", 			weight = 900, 		type = "item", 		image = "mininglaser.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
+    drillbit 					 = {name = "drillbit", 			  	  		label = "Drill Bit", 				weight = 10, 		type = "item", 		image = "drillbit.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
+    goldpan 					 = {name = "goldpan", 			  	  		label = "Gold Panning Tray", 		weight = 10, 		type = "item", 		image = "goldpan.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "" },
+            
     --BurgerShot
     slicedpotato 				 = {name = "slicedpotato",				label = "Sliced Potatoes",			weight = 500,		type = "item",		image = "burger-slicedpotato.png",	unique = false, 	useable = false,	shouldClose = false,	combinable = nil,	description = "Sliced Potato"},
     slicedonion 				 = {name = "slicedonion",				label = "Sliced Onions",			weight = 500,		type = "item",		image = "burger-slicedonion.png",	unique = false, 	useable = false,	shouldClose = false,	combinable = nil,	description = "Sliced Onion"},
