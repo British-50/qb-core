@@ -383,10 +383,7 @@ QBShared.Items = {
     newsmic                      = { name = 'newsmic', label = 'News Microphone', weight = 100, type = 'item', image = 'newsmic.png', unique = true, useable = true, shouldClose = true, description = 'A microphone for the news' },
     newsbmic                     = { name = 'newsbmic', label = 'Boom Microphone', weight = 100, type = 'item', image = 'newsbmic.png', unique = true, useable = true, shouldClose = true, description = 'A Useable BoomMic' },
 
-<<<<<<< HEAD
-},
-=======
---<!>-- BOII DRUGS --<!>--
+    --<!>-- BOII DRUGS --<!>--
     -- Drugsales
     burnerphone                	 = { name = 'burnerphone',               	label = 'Burner Phone',             weight = 250,       type = 'item',      image = 'burnerphone.png',        	unique = false,     useable = true,     shouldClose = true,    combinable = nil,   description = 'A burner phone, what do you need one of these for?' },
     --Weed
@@ -717,7 +714,7 @@ QBShared.Items = {
         
     --Cosmetics
     underglow_controller         = {name = "underglow_controller",label = "Neon Controller",	weight = 0, type = "item",  image = "underglow_controller.png", unique = false, useable = true, shouldClose = true, description = "RGB LED Vehicle Remote"},
-    headlights                   = {name = "headlights",       label = "Xenon Headlights",		weight = 0, type = "item",  image = "headlights.png",       unique = true, 	useable = true, shouldClose = true, description = "8k HID headlights"}
+    headlights                   = {name = "headlights",       label = "Xenon Headlights",		weight = 0, type = "item",  image = "headlights.png",       unique = true, 	useable = true, shouldClose = true, description = "8k HID headlights"},
     tint_supplies                = {name = "tint_supplies",    label = "Tint Supplies",		weight = 0, type = "item",  image = "tint_supplies.png",    unique = false, useable = true, shouldClose = true, description = "Supplies for window tinting"},
 
     customplate                  = {name = "customplate",      label = "Customized Plates",	weight = 0, type = "item",  image = "plate.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
@@ -730,11 +727,11 @@ QBShared.Items = {
     seat                         = {name = "seat",             label = "Seat Cosmetics",		weight = 0, type = "item",  image = "seat.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
     rollcage                     = {name = "rollcage",         label = "Roll Cage",			weight = 0, type = "item",  image = "rollcage.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
   
-    rims                         = {name = "rims",             label = "Custom Wheel Rims",	weight = 0, type = "item",  image = "rims.png", 			unique = true,  useable = true, shouldClose = true, description = ""}
+    rims                         = {name = "rims",             label = "Custom Wheel Rims",	weight = 0, type = "item",  image = "rims.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
     livery                       = {name = "livery",           label = "Livery Roll",			weight = 0, type = "item",  image = "livery.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
     paintcan                     = {name = "paintcan",         label = "Vehicle Spray Can",	weight = 0, type = "item",  image = "spraycan.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
-    tires                        = {name = "tires",            label = "Drift Smoke Tires",	weight = 0, type = "item",  image = "tires.png", 	  		unique = true,  useable = true, shouldClose = true, description = ""}
-    horn                         = {name = "horn",             label = "Custom Vehicle Horn",	weight = 0, type = "item",  image = "horn.png", 			unique = true,  useable = true, shouldClose = true, description = ""}
+    tires                        = {name = "tires",            label = "Drift Smoke Tires",	weight = 0, type = "item",  image = "tires.png", 	  		unique = true,  useable = true, shouldClose = true, description = ""},
+    horn                         = {name = "horn",             label = "Custom Vehicle Horn",	weight = 0, type = "item",  image = "horn.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
     internals                    = {name = "internals",        label = "Internal Cosmetics",	weight = 0, type = "item",  image = "internals.png", 		unique = true,  useable = true, shouldClose = true, description = ""},
     externals                    = {name = "externals",        label = "Exterior Cosmetics",	weight = 0, type = "item",  image = "mirror.png", 			unique = true,  useable = true, shouldClose = true, description = ""},
 
@@ -751,7 +748,7 @@ QBShared.Items = {
     can                          = {name = "can",                  label = "Empty Can",        weight = 10,  type = "item", 		image = "can.png",                  unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "An empty can, good for recycling"},
 
     --Jim-Lumberjack
-    powersaw 		             = {name = "powersaw",       	label = "Power Saw", 		weight = 1000,  type = "item",  image = "powersaw.png",	unique = true,	useable = false,     shouldClose = false, description = ""}
+    powersaw 		             = {name = "powersaw",       	label = "Power Saw", 		weight = 1000,  type = "item",  image = "powersaw.png",	unique = true,	useable = false,     shouldClose = false, description = ""},
     log 	    	             = {name = "log",				label = "Log",	 			weight = 2000,  type = "item",  image = "log.png",			unique = false, 	useable = false,     shouldClose = false, description = ""},
     bark 			             = {name = "bark",       		label = "Tree Bark", 		weight = 100,   type = "item",  image = "bark.png",			unique = false, 	useable = false,     shouldClose = false, description = ""},
     debarkedlog		             = {name = "debarkedlog",		label = "Debarked Log", 	weight = 100,   type = "item",  image = "debarkedlog.png",	unique = false, 	useable = false,     shouldClose = false, description = ""},
@@ -796,7 +793,7 @@ QBShared.Items = {
     ecolalight                   = {name = "ecolalight", label = "eCola Light", weight = 100, type = "item", image = "ecolalight.png", unique = false,     useable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
     
     -- jim-mining stuff
-    stone 		 	 			 = {name = "stone",           				label = "Stone",	 				weight = 2000, 	    type = "item", 		image = "stone.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Stone woo"}
+    stone 		 	 			 = {name = "stone",           				label = "Stone",	 				weight = 2000, 	    type = "item", 		image = "stone.png", 				unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "Stone woo"},
     uncut_emerald 				 = {name = "uncut_emerald", 			  	label = "Uncut Emerald", 			weight = 100, 		type = "item", 		image = "uncut_emerald.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Emerald"},
     uncut_ruby 					 = {name = "uncut_ruby", 			  	  	label = "Uncut Ruby", 				weight = 100, 		type = "item", 		image = "uncut_ruby.png", 			unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Ruby"},
     uncut_diamond 				 = {name = "uncut_diamond", 			  	label = "Uncut Diamond", 			weight = 100, 		type = "item", 		image = "uncut_diamond.png", 		unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = "A rough Diamond"},
@@ -970,4 +967,3 @@ QBShared.Items = {
     heist_papers				 = {name = "heist_papers",			label = "Vehicle Papers",		weight = 0,	type = "item",	image = "heist_papers.png",	unique = true,	useable = false,	shouldClose = true,	combinable = nil,	   description = "Delivery documents."},
 
 }
->>>>>>> 23a5bf3659390627758d3d1cd6d883944733fcb8
