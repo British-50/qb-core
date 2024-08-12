@@ -11,20 +11,53 @@ QBShared.Jobs = {
 	garbage = { label = 'Garbage', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Collector', payment = 50 } } },
 	vineyard = { label = 'Vineyard', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Picker', payment = 50 } } },
 	hotdog = { label = 'Hotdog', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Sales', payment = 50 } } },
+    butcher = { label = 'Butcher', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Factory Worker', payment = 50 } } },
 
-	police = {
-		label = 'Law Enforcement',
-		type = 'leo',
+
+	pdm = {
+		label = 'PDM',
+		type = 'pdm',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Officer', payment = 75 },
-			['2'] = { name = 'Sergeant', payment = 100 },
-			['3'] = { name = 'Lieutenant', payment = 125 },
-			['4'] = { name = 'Chief', isboss = true, payment = 150 },
+			['0'] = { name = 'Worker', payment = 50 },
+			['1'] = { name = 'Manager', payment = 75 },
+			['2'] = { name = 'Owner', isboss = true, payment = 100 },
+
 		},
 	},
+	police = {
+		label = 'MET',
+		type = 'met',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'PCSO', payment = 50 },
+			['1'] = { name = 'Officer', payment = 75 },
+			['2'] = { name = 'AFO', payment = 100 },
+			['3'] = { name = 'High Speed Officer', payment = 50 },
+			['4'] = { name = 'Inspector', payment = 75 },
+			['5'] = { name = 'Detective', payment = 100 },
+			['6'] = { name = 'Captain', payment = 125 },
+			['7'] = { name = 'Lieutenant', payment = 125 },
+			['8'] = { name = 'Sergeant', payment = 50 },
+			['9'] = { name = 'Bronze Command', payment = 75 },
+			['10'] = { name = 'Silver Command', payment = 100 },
+			['11'] = { name = 'Gold Command', payment = 125 },
+			['12'] = { name = 'Commissioner', isboss = true, payment = 150 },
+		},
+	},
+	
+	g4s = {
+		label = 'G4S',
+		type = 'g4s',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = { name = 'G4S Recruit', payment = 50 },
+        },
+    },
+
 	ambulance = {
 		label = 'EMS',
 		type = 'ems',
@@ -137,6 +170,36 @@ QBShared.Jobs = {
 			['2'] = { name = 'Experienced', payment = 100 },
 			['3'] = { name = 'Advanced', payment = 125 },
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+		},
+	},
+	whitewidow = {
+		label = 'White Widow',
+		type = 'whitewidow',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Trainee', payment = 50 },
+			['1'] = { name = 'Deliveries', payment = 75 },
+			['2'] = { name = 'Sales', payment = 100 },
+			['3'] = { name = 'Grower', payment = 125 },
+			['4'] = { name = 'Assistant Manager', payment = 150 },
+			['5'] = { name = 'Manager', payment = 175 },
+			['6'] = { name = 'Owner', isboss = true, payment = 250 },
+		},
+	},
+	bestbuds = {
+		label = 'Best Buds',
+		type = 'bestbuds',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Trainee', payment = 50 },
+			['1'] = { name = 'Deliveries', payment = 75 },
+			['2'] = { name = 'Sales', payment = 100 },
+			['3'] = { name = 'Grower', payment = 125 },
+			['4'] = { name = 'Assistant Manager', payment = 150 },
+			['5'] = { name = 'Manager', payment = 175 },
+			['6'] = { name = 'Owner', isboss = true, payment = 250 },
 		},
 	},
 }

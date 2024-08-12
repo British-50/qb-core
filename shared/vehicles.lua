@@ -2,17 +2,37 @@ QBShared = QBShared or {}
 QBShared.Vehicles = QBShared.Vehicles or {}
 
 local Vehicles = {
-    --- Compacts (0)
-    {
-        model = 'asbo',        -- This has to match the spawn code of the vehicle
-        name = 'Asbo',         -- This is the display of the vehicle
-        brand = 'Maxwell',     -- This is the vehicle's brand
-        price = 4000,          -- The price that the vehicle sells for
-        category = 'compacts', -- Catgegory of the vehilce, stick with GetVehicleClass() options https://docs.fivem.net/natives/?_0x29439776AAA00A62
-        type = 'automobile',   -- Vehicle type, refer here https://docs.fivem.net/natives/?_0x6AE51D4B & here https://docs.fivem.net/natives/?_0xA273060E
-        shop = 'pdm',          -- Can be a single shop or multiple shops. For multiple shops for example {'shopname1','shopname2','shopname3'}
-    },
+
     { model = 'blista',          name = 'Blista',                        brand = 'Dinka',           price = 13000,   category = 'compacts',       type = 'automobile', shop = 'pdm' },
+    { model = '22Surron',          name = 'Surron',                        brand = 'Surron',           price = 100000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'bati901',          name = 'Pegassi Bati 901',                        brand = 'Pegassi',           price = 60000,   category = 'bikes',       type = 'Bikes', shop = 'dm' },
+    { model = 'H4RxST2',          name = 'Pfister Comet ST2',                        brand = 'Pfister',           price = 360000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'ccadeesv',          name = 'Albany Cavalcade ESV',                        brand = 'Albany',           price = 82000,   category = 'suvs',       type = 'Suvs', shop = 'dm' },
+    { model = 'hachurac',          name = 'Vulcar Hachura R',                        brand = 'Vulcar',           price = 122000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'millennial',          name = 'Dinka Millennial Wagon',                        brand = 'Dinka',           price = 49000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'landstalker2',          name = 'Dundreary Landstalker',                        brand = 'Dundreary',           price = 50000,   category = 'suvs',       type = 'Suvs', shop = 'dm' },
+    { model = 'rh82',          name = 'Annis Elegy RH8',                        brand = 'Annis',           price = 82000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'vigeronew',          name = 'Declasse Vigero',                        brand = 'Declasse',           price = 180000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'arias',          name = 'Bordeaux Arias',                        brand = 'Bordeaux',           price = 9500,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'vtf650',          name = 'Shitzu VTF-650',                        brand = 'Shitzu',           price = 50000,   category = 'bikes',       type = 'Bikes', shop = 'dm' },
+    { model = 'emerusgtr',          name = 'Progen Emerus GTR',                        brand = 'Progen',           price = 82000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'dubsta4x4',          name = 'Benefactor Dubsta 4x4',                        brand = 'Benefactor',           price = 182000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'adders',          name = 'Truffade Adder Sport',                        brand = 'Truffade',           price = 82000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'elegyrh7',          name = 'Elegy RH7',                        brand = 'Elegy',           price = 120000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'turismorr',          name = 'Grotti Turismo',                        brand = 'Grotti',           price = 100000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'superd3',          name = 'Enus Super Diamond S',                        brand = 'Enus',           price = 100000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'kawaii',          name = 'Annis Kawaii',                        brand = 'Annis',           price = 45000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'slave',          name = 'Western Motorcycle Company',                        brand = 'Western',           price = 55000,   category = 'bikes',       type = 'Bikes', shop = 'dm' },
+    { model = 'buffalo4h',          name = 'Bravado Buffalo Hellfire',                        brand = 'Bravado',           price = 129000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'issi8s',          name = 'Weeny Issi Rally',                        brand = 'Weeny',           price = 35000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'DirtBike',          name = 'DirtBike',                        brand = 'DirtBike',           price = 5000,   category = 'bikes',       type = 'Bikes', shop = 'dm' },
+    { model = 'torrence',          name = 'Vapid Torrence',                        brand = 'Vapid',           price = 17000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'yubbynub',          name = 'Lazyeye Gauntlet',                        brand = 'Lazyeye',           price = 275000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'turtle',          name = 'Karin Turtle',                        brand = 'Karin',           price = 9000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'schafter3rs',          name = 'Benefactor Schafter V12',                        brand = 'Benefactor',           price = 29000,   category = 'cars',       type = 'Cars', shop = 'dm' },
+    { model = 'contenderbaja',          name = 'Vapid Contender Baja',                        brand = 'Vapid',           price = 82000,   category = 'suvs',       type = 'Suvs', shop = 'dm' },
+    { model = 'jugularest',          name = 'Ocelot Jugular Estate',                        brand = 'Ocelot',           price = 150000,   category = 'shopcars',       type = 'shopcars', shop = 'none' },
+    { model = 'coquettewb',          name = 'Coquette Widebody',                        brand = 'Coquette',           price = 60000,   category = 'cars',       type = 'Cars', shop = 'dm' },
     { model = 'brioso',          name = 'Brioso R/A',                    brand = 'Grotti',          price = 20000,   category = 'compacts',       type = 'automobile', shop = 'pdm' },
     { model = 'club',            name = 'Club',                          brand = 'BF',              price = 8000,    category = 'compacts',       type = 'automobile', shop = 'pdm' },
     { model = 'dilettante',      name = 'Dilettante',                    brand = 'Karin',           price = 9000,    category = 'compacts',       type = 'automobile', shop = 'pdm' },
